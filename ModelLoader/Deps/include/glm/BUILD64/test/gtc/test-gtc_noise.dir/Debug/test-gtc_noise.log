@@ -1,0 +1,13 @@
+﻿  Building Custom Rule C:/Users/s4002675/Downloads/glm-0.9.8.5/glm/test/gtc/CMakeLists.txt
+  gtc_noise.cpp
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\external\gli\core\operation.inl(176,49): warning C4267: 'argument': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=glm::uint
+          ]
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\external\gli\core\operation.inl(177,45): warning C4267: 'argument': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=glm::uint
+          ]
+  test-gtc_noise.vcxproj -> C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\Debug\test-gtc_noise.exe

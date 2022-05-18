@@ -1,0 +1,10 @@
+^C:\USERS\S4002675\DOWNLOADS\GLM-0.9.8.5\GLM\TEST\GTC\CMAKELISTS.TXT
+setlocal
+C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\bin\cmake.exe -SC:/Users/s4002675/Downloads/glm-0.9.8.5/glm -BC:/Users/s4002675/Downloads/glm-0.9.8.5/glm/glm/BUILD64 --check-stamp-file C:/Users/s4002675/Downloads/glm-0.9.8.5/glm/glm/BUILD64/test/gtc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

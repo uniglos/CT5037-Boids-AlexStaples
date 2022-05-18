@@ -1,0 +1,10 @@
+﻿  Building Custom Rule C:/Users/s4002675/Downloads/glm-0.9.8.5/glm/test/core/CMakeLists.txt
+  core_func_integer_find_lsb.cpp
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\core\core_func_integer_find_lsb.cpp(138,10): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\core\core_func_integer_find_lsb.cpp(152,10): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\core\core_func_integer_find_lsb.cpp(176,11): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\core\core_func_integer_find_lsb.cpp(191,11): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\core\core_func_integer_find_lsb.cpp(208,13): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\core\core_func_integer_find_lsb.cpp(225,13): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\core\core_func_integer_find_lsb.cpp(241,13): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  test-core_func_integer_find_lsb.vcxproj -> C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\Debug\test-core_func_integer_find_lsb.exe

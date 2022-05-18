@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/s4002675/Downloads/glm-0.9.8.5/glm/test/core/CMakeLists.txt
+  core_func_integer_find_msb.cpp
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\core\core_func_integer_find_msb.cpp(92,8): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  test-core_func_integer_find_msb.vcxproj -> C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\Debug\test-core_func_integer_find_msb.exe

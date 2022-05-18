@@ -1,0 +1,22 @@
+﻿  Building Custom Rule C:/Users/s4002675/Downloads/glm-0.9.8.5/glm/test/gtc/CMakeLists.txt
+  gtc_integer.cpp
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\gtc\gtc_integer.cpp(97,30): warning C4267: 'argument': conversion from 'size_t' to 'unsigned long', possible loss of data
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\gtc\gtc_integer.cpp(98,30): warning C4267: 'argument': conversion from 'size_t' to 'unsigned long', possible loss of data
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\gtc\gtc_integer.cpp(99,30): warning C4267: 'argument': conversion from 'size_t' to 'unsigned long', possible loss of data
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\gtc\gtc_integer.cpp(100,30): warning C4267: 'argument': conversion from 'size_t' to 'unsigned long', possible loss of data
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\gtc\gtc_integer.cpp(118,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned long', possible loss of data
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\gtc\gtc_integer.cpp(119,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned long', possible loss of data
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\gtc\gtc_integer.cpp(120,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned long', possible loss of data
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\gtc\gtc_integer.cpp(121,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned long', possible loss of data
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\gtc\gtc_integer.cpp(138,70): warning C4267: 'argument': conversion from 'size_t' to 'unsigned long', possible loss of data
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\gtc\gtc_integer.cpp(139,70): warning C4267: 'argument': conversion from 'size_t' to 'unsigned long', possible loss of data
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\gtc\gtc_integer.cpp(140,70): warning C4267: 'argument': conversion from 'size_t' to 'unsigned long', possible loss of data
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\gtc\gtc_integer.cpp(141,70): warning C4267: 'argument': conversion from 'size_t' to 'unsigned long', possible loss of data
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\gtc\gtc_integer.cpp(171,37): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\gtc\gtc_integer.cpp(191,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\gtc\gtc_integer.cpp(209,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  test-gtc_integer.vcxproj -> C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\Debug\test-gtc_integer.exe

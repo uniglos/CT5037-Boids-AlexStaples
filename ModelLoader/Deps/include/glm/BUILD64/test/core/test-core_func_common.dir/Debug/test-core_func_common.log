@@ -1,0 +1,11 @@
+﻿  Building Custom Rule C:/Users/s4002675/Downloads/glm-0.9.8.5/glm/test/core/CMakeLists.txt
+  core_func_common.cpp
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\core\core_func_common.cpp(854,10): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\core\core_func_common.cpp(927): message : see reference to function template instantiation 'genFIType sign::sign_alu2<genType>(genFIType)' being compiled
+          with
+          [
+              genFIType=glm::int32,
+              genType=glm::int32
+          ]
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\core\core_func_common.cpp(854,34): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  test-core_func_common.vcxproj -> C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\Debug\test-core_func_common.exe

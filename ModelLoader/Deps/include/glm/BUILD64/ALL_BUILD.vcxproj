@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2DB04111-EBBA-3070-8B56-242DB7072ABE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\s4002675\Downloads\glm-0.9.8.5\glm;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\s4002675\Downloads\glm-0.9.8.5\glm;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\s4002675\Downloads\glm-0.9.8.5\glm;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\s4002675\Downloads\glm-0.9.8.5\glm;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/s4002675/Downloads/glm-0.9.8.5/glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\bin\cmake.exe -SC:/Users/s4002675/Downloads/glm-0.9.8.5/glm -BC:/Users/s4002675/Downloads/glm-0.9.8.5/glm/glm/BUILD64 --check-stamp-file C:/Users/s4002675/Downloads/glm-0.9.8.5/glm/glm/BUILD64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeParseArguments.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\CMakePackageConfigHelpers.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\GNUInstallDirs.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\glm.pc.in;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\glmBuildConfig.cmake.in;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\glmConfig.cmake.in;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\3.23.0-rc1\CMakeCCompiler.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\3.23.0-rc1\CMakeCXXCompiler.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\3.23.0-rc1\CMakeRCCompiler.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\3.23.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/s4002675/Downloads/glm-0.9.8.5/glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\bin\cmake.exe -SC:/Users/s4002675/Downloads/glm-0.9.8.5/glm -BC:/Users/s4002675/Downloads/glm-0.9.8.5/glm/glm/BUILD64 --check-stamp-file C:/Users/s4002675/Downloads/glm-0.9.8.5/glm/glm/BUILD64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeParseArguments.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\CMakePackageConfigHelpers.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\GNUInstallDirs.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\glm.pc.in;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\glmBuildConfig.cmake.in;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\glmConfig.cmake.in;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\3.23.0-rc1\CMakeCCompiler.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\3.23.0-rc1\CMakeCXXCompiler.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\3.23.0-rc1\CMakeRCCompiler.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\3.23.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/s4002675/Downloads/glm-0.9.8.5/glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\bin\cmake.exe -SC:/Users/s4002675/Downloads/glm-0.9.8.5/glm -BC:/Users/s4002675/Downloads/glm-0.9.8.5/glm/glm/BUILD64 --check-stamp-file C:/Users/s4002675/Downloads/glm-0.9.8.5/glm/glm/BUILD64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeParseArguments.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\CMakePackageConfigHelpers.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\GNUInstallDirs.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\glm.pc.in;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\glmBuildConfig.cmake.in;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\glmConfig.cmake.in;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\3.23.0-rc1\CMakeCCompiler.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\3.23.0-rc1\CMakeCXXCompiler.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\3.23.0-rc1\CMakeRCCompiler.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\3.23.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/s4002675/Downloads/glm-0.9.8.5/glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\bin\cmake.exe -SC:/Users/s4002675/Downloads/glm-0.9.8.5/glm -BC:/Users/s4002675/Downloads/glm-0.9.8.5/glm/glm/BUILD64 --check-stamp-file C:/Users/s4002675/Downloads/glm-0.9.8.5/glm/glm/BUILD64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeParseArguments.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Users\s4002675\Downloads\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\CMakePackageConfigHelpers.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\GNUInstallDirs.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\glm.pc.in;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\glmBuildConfig.cmake.in;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\cmake\glmConfig.cmake.in;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\3.23.0-rc1\CMakeCCompiler.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\3.23.0-rc1\CMakeCXXCompiler.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\3.23.0-rc1\CMakeRCCompiler.cmake;C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\3.23.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\ZERO_CHECK.vcxproj">
+      <Project>{4E5845CC-0C89-33C5-84EF-29609504D9D5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\glm\glm_shared.vcxproj">
+      <Project>{9B66B4A6-CDAE-3A70-8BFE-DA18238D3934}</Project>
+      <Name>glm_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\glm\glm_static.vcxproj">
+      <Project>{EB69A0FB-AABC-313C-994E-151F595DB5E7}</Project>
+      <Name>glm_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\bug\test-bug_ms_vec_static.vcxproj">
+      <Project>{D6D5F904-FB0F-3CEA-B997-B323C706B82B}</Project>
+      <Name>test-bug_ms_vec_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_force_pure.vcxproj">
+      <Project>{203FCCE5-1F05-3766-A034-B8FBC1342F7C}</Project>
+      <Name>test-core_force_pure</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_force_unrestricted_gentype.vcxproj">
+      <Project>{517A2844-E0ED-3740-A11A-D9A37C5FA492}</Project>
+      <Name>test-core_force_unrestricted_gentype</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_func_common.vcxproj">
+      <Project>{FAC50ABF-D151-3649-B584-C855ACA9DD2D}</Project>
+      <Name>test-core_func_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_func_exponential.vcxproj">
+      <Project>{0917C4B6-88D8-37FA-8B93-2D8819FD81FC}</Project>
+      <Name>test-core_func_exponential</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_func_geometric.vcxproj">
+      <Project>{306A66C9-95BC-3AEC-AA43-C9C519F7E825}</Project>
+      <Name>test-core_func_geometric</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_func_integer.vcxproj">
+      <Project>{ADF7D657-3EDC-37DF-A5FD-7B0A705C5F13}</Project>
+      <Name>test-core_func_integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_func_integer_bit_count.vcxproj">
+      <Project>{F3018008-892A-300E-B83C-80C16E1D7A9F}</Project>
+      <Name>test-core_func_integer_bit_count</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_func_integer_find_lsb.vcxproj">
+      <Project>{1D61421B-0D82-30BB-A557-D9CF0CBA11A6}</Project>
+      <Name>test-core_func_integer_find_lsb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_func_integer_find_msb.vcxproj">
+      <Project>{CF612D08-616A-3154-AFA8-78D661F11EFD}</Project>
+      <Name>test-core_func_integer_find_msb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_func_matrix.vcxproj">
+      <Project>{33D873F1-B7EF-3E28-A1C9-30D52FCE4F1A}</Project>
+      <Name>test-core_func_matrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_func_noise.vcxproj">
+      <Project>{DE5C9EB4-75D6-3706-B292-774F3B08C615}</Project>
+      <Name>test-core_func_noise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_func_packing.vcxproj">
+      <Project>{3EDD5E7A-7094-351C-9ADD-E001B16E845E}</Project>
+      <Name>test-core_func_packing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_func_swizzle.vcxproj">
+      <Project>{86FCC90D-AA91-3848-8BDB-912F0A871361}</Project>
+      <Name>test-core_func_swizzle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_func_trigonometric.vcxproj">
+      <Project>{53C037C0-8471-3F81-98FC-C1F602BF47AF}</Project>
+      <Name>test-core_func_trigonometric</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_func_vector_relational.vcxproj">
+      <Project>{F1407C3F-C479-31E9-9508-707FB431DA87}</Project>
+      <Name>test-core_func_vector_relational</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_setup_force_cxx98.vcxproj">
+      <Project>{74F24EE3-070D-33D4-8E21-C0A36EBD42F3}</Project>
+      <Name>test-core_setup_force_cxx98</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_setup_message.vcxproj">
+      <Project>{A716B875-9422-3933-ACAB-1C429D717D31}</Project>
+      <Name>test-core_setup_message</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_setup_precision.vcxproj">
+      <Project>{A1CC31CF-9968-3D76-93AC-36B9F8F82911}</Project>
+      <Name>test-core_setup_precision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_type_aligned.vcxproj">
+      <Project>{516518FB-58D8-34C8-957F-BF5DB20F722B}</Project>
+      <Name>test-core_type_aligned</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_type_cast.vcxproj">
+      <Project>{1D2F1024-4F29-33E3-99F0-0360CFEA5B82}</Project>
+      <Name>test-core_type_cast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_type_ctor.vcxproj">
+      <Project>{761669FB-8ED0-384C-A363-AA385F05E0A0}</Project>
+      <Name>test-core_type_ctor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_type_float.vcxproj">
+      <Project>{342DABAF-AD68-36EE-BD6F-813CE4E06FF1}</Project>
+      <Name>test-core_type_float</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_type_int.vcxproj">
+      <Project>{5EE11472-3E3D-3F12-8CB8-A7C13135DD1D}</Project>
+      <Name>test-core_type_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_type_length.vcxproj">
+      <Project>{A51875ED-4DC6-3F70-B1D8-C26ECF96F329}</Project>
+      <Name>test-core_type_length</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_type_mat2x2.vcxproj">
+      <Project>{09C7A022-B3D1-3722-9B9A-5610CA39A24D}</Project>
+      <Name>test-core_type_mat2x2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_type_mat2x3.vcxproj">
+      <Project>{CD16DDD7-271D-3B1A-A063-62C624FE9004}</Project>
+      <Name>test-core_type_mat2x3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_type_mat2x4.vcxproj">
+      <Project>{4E2F58F4-AEA6-31D0-ADC8-F032F87EE1D6}</Project>
+      <Name>test-core_type_mat2x4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_type_mat3x2.vcxproj">
+      <Project>{F3BD7F8E-E703-3D7A-9642-311E7C6201DB}</Project>
+      <Name>test-core_type_mat3x2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_type_mat3x3.vcxproj">
+      <Project>{2961E700-A0D6-3C1A-AA0C-9EEBF38C6244}</Project>
+      <Name>test-core_type_mat3x3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_type_mat3x4.vcxproj">
+      <Project>{4CC04A53-89C5-3A63-B519-2AFC08689FF1}</Project>
+      <Name>test-core_type_mat3x4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_type_mat4x2.vcxproj">
+      <Project>{D165B951-5FA5-32E0-93AF-E63ADC7BD98C}</Project>
+      <Name>test-core_type_mat4x2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_type_mat4x3.vcxproj">
+      <Project>{1DF504BE-25D7-3529-81B5-9EDBAA304D09}</Project>
+      <Name>test-core_type_mat4x3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_type_mat4x4.vcxproj">
+      <Project>{2859BBD1-CEAE-387A-8A72-E2CE3C9D3B9B}</Project>
+      <Name>test-core_type_mat4x4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_type_vec1.vcxproj">
+      <Project>{D86F0E84-1BB2-37E3-952A-A9D868348FB0}</Project>
+      <Name>test-core_type_vec1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_type_vec2.vcxproj">
+      <Project>{FB82BA49-4135-3FC0-A346-C1835E781C3E}</Project>
+      <Name>test-core_type_vec2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_type_vec3.vcxproj">
+      <Project>{5FF96ABF-23A3-3603-B208-D4CC17360013}</Project>
+      <Name>test-core_type_vec3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\test-core_type_vec4.vcxproj">
+      <Project>{E8CAAF5C-C869-3432-9E94-064DF057EBBB}</Project>
+      <Name>test-core_type_vec4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_bitfield.vcxproj">
+      <Project>{0ACA9EDB-A498-391B-A394-E0F46AB37561}</Project>
+      <Name>test-gtc_bitfield</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_color_space.vcxproj">
+      <Project>{03A18541-D556-33A9-8ECA-8FC8B9046A99}</Project>
+      <Name>test-gtc_color_space</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_constants.vcxproj">
+      <Project>{23976E82-ED7A-386A-8EC8-ECA690F0A09E}</Project>
+      <Name>test-gtc_constants</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_epsilon.vcxproj">
+      <Project>{33928804-8701-3D59-B5D8-DF0A8B4CE9FC}</Project>
+      <Name>test-gtc_epsilon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_functions.vcxproj">
+      <Project>{0FF6BB29-C301-306F-86EB-00921C3F5DDC}</Project>
+      <Name>test-gtc_functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_integer.vcxproj">
+      <Project>{9CD0EB07-E775-3E9B-8A5F-36506947040C}</Project>
+      <Name>test-gtc_integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_matrix_access.vcxproj">
+      <Project>{6C73F677-65E4-379B-AF37-757DCC21B4C7}</Project>
+      <Name>test-gtc_matrix_access</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_matrix_integer.vcxproj">
+      <Project>{B65C42C6-A0DB-34A4-A092-11E99E624360}</Project>
+      <Name>test-gtc_matrix_integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_matrix_inverse.vcxproj">
+      <Project>{4AD7A973-BB72-3690-9EE9-BE93716D2992}</Project>
+      <Name>test-gtc_matrix_inverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_matrix_transform.vcxproj">
+      <Project>{997F9BDF-C78A-3228-B5A4-523889918F7F}</Project>
+      <Name>test-gtc_matrix_transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_noise.vcxproj">
+      <Project>{E753FBB3-D703-36F7-BAD2-C7F144EFC80D}</Project>
+      <Name>test-gtc_noise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_packing.vcxproj">
+      <Project>{55F768C0-E97C-3531-A7CE-EE45F98B96EE}</Project>
+      <Name>test-gtc_packing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_quaternion.vcxproj">
+      <Project>{D1AD7332-D3DE-3EC4-80B8-5432ECF61577}</Project>
+      <Name>test-gtc_quaternion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_random.vcxproj">
+      <Project>{C9327A1B-0F2D-3757-B267-39A73CFACA22}</Project>
+      <Name>test-gtc_random</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_reciprocal.vcxproj">
+      <Project>{BA54A237-3D39-3954-A321-4B7A088725D6}</Project>
+      <Name>test-gtc_reciprocal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_round.vcxproj">
+      <Project>{EA483FCB-E4E4-379A-9A32-A3F8F3B04462}</Project>
+      <Name>test-gtc_round</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_type_aligned.vcxproj">
+      <Project>{7592362B-1623-3370-9AA6-04F8EC27CB3E}</Project>
+      <Name>test-gtc_type_aligned</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_type_precision.vcxproj">
+      <Project>{4DCF2854-0691-33EF-8435-F868440488DE}</Project>
+      <Name>test-gtc_type_precision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_type_ptr.vcxproj">
+      <Project>{29410FA1-E42A-3D26-98AB-5D7D7CA6B70B}</Project>
+      <Name>test-gtc_type_ptr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_ulp.vcxproj">
+      <Project>{4809BFD6-8F90-3E8B-8ED6-04302C444B81}</Project>
+      <Name>test-gtc_ulp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtc\test-gtc_vec1.vcxproj">
+      <Project>{76025C2A-E067-3140-9BA5-D8BF0160C9D1}</Project>
+      <Name>test-gtc_vec1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx.vcxproj">
+      <Project>{C321D8BF-0C5E-3B45-AB74-95C4995EA0DC}</Project>
+      <Name>test-gtx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_associated_min_max.vcxproj">
+      <Project>{51D22A78-A07D-3D87-B520-4539239997CF}</Project>
+      <Name>test-gtx_associated_min_max</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_closest_point.vcxproj">
+      <Project>{4A44BC4C-0376-393B-92C5-1DE34A318673}</Project>
+      <Name>test-gtx_closest_point</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_color_space.vcxproj">
+      <Project>{E1EA5BB0-41F0-328D-983E-6D6BCE64F923}</Project>
+      <Name>test-gtx_color_space</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_color_space_YCoCg.vcxproj">
+      <Project>{E82FBEEB-CB8A-3F0F-8E9F-4B529D950BAD}</Project>
+      <Name>test-gtx_color_space_YCoCg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_common.vcxproj">
+      <Project>{5A7AEC60-DA33-3A67-9B68-915ED728959C}</Project>
+      <Name>test-gtx_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_compatibility.vcxproj">
+      <Project>{FBB6491A-66C6-3EDB-ADDA-B2AFAD38B25B}</Project>
+      <Name>test-gtx_compatibility</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_component_wise.vcxproj">
+      <Project>{B063ECDF-5FCA-3F82-AD19-43B14FAD826E}</Project>
+      <Name>test-gtx_component_wise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_dual_quaternion.vcxproj">
+      <Project>{E1BB171A-6654-3580-9ABE-EFF09DCBC755}</Project>
+      <Name>test-gtx_dual_quaternion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_euler_angle.vcxproj">
+      <Project>{99304DC7-D02A-3521-AE0B-9544227383FF}</Project>
+      <Name>test-gtx_euler_angle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_extend.vcxproj">
+      <Project>{A863FF49-B9B5-340E-8585-0C1ACFE36C79}</Project>
+      <Name>test-gtx_extend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_extended_min_max.vcxproj">
+      <Project>{0BD7B29C-4DD4-3CC7-92F2-E15A295F7262}</Project>
+      <Name>test-gtx_extended_min_max</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_fast_exponential.vcxproj">
+      <Project>{BE4A5FD9-07B6-320B-8CD7-D711660A4E0D}</Project>
+      <Name>test-gtx_fast_exponential</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_fast_square_root.vcxproj">
+      <Project>{EB0811C9-77BF-3201-811E-56A30CF4BB96}</Project>
+      <Name>test-gtx_fast_square_root</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_fast_trigonometry.vcxproj">
+      <Project>{2FF2601C-CFFE-386B-A50F-93ADCE00A72D}</Project>
+      <Name>test-gtx_fast_trigonometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_gradient_paint.vcxproj">
+      <Project>{2C78ECE2-A759-3EFB-844C-9086675B91DA}</Project>
+      <Name>test-gtx_gradient_paint</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_handed_coordinate_space.vcxproj">
+      <Project>{AC782A84-EC77-39CC-A71A-E219A67CA575}</Project>
+      <Name>test-gtx_handed_coordinate_space</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_integer.vcxproj">
+      <Project>{4DFA23AF-E2C6-3EA4-B987-6B2F16B9F230}</Project>
+      <Name>test-gtx_integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_intersect.vcxproj">
+      <Project>{8E7B1CBB-D1CB-334F-AE49-887CC99A05E9}</Project>
+      <Name>test-gtx_intersect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_io.vcxproj">
+      <Project>{91CE035E-624D-3BB6-A7DA-8D1792779378}</Project>
+      <Name>test-gtx_io</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_log_base.vcxproj">
+      <Project>{F26010CB-7E7F-35F7-8025-51A453D55DF3}</Project>
+      <Name>test-gtx_log_base</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_matrix_cross_product.vcxproj">
+      <Project>{C811C0E3-45EA-3DF9-9755-E98AD6C87DCC}</Project>
+      <Name>test-gtx_matrix_cross_product</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_matrix_decompose.vcxproj">
+      <Project>{C7FFDE69-C542-3323-AB31-6E6641FFF6B0}</Project>
+      <Name>test-gtx_matrix_decompose</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_matrix_interpolation.vcxproj">
+      <Project>{D8ADBF65-CDE7-3ECF-B428-C816611C97C8}</Project>
+      <Name>test-gtx_matrix_interpolation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_matrix_major_storage.vcxproj">
+      <Project>{75D0BFE5-1BB2-3924-BB06-F2E190D9DEEC}</Project>
+      <Name>test-gtx_matrix_major_storage</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_matrix_operation.vcxproj">
+      <Project>{65CD9E68-55EF-38AB-855C-99F1DFB35408}</Project>
+      <Name>test-gtx_matrix_operation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_matrix_query.vcxproj">
+      <Project>{B7D16B19-C82B-3E49-AC9F-AE07B0D752F4}</Project>
+      <Name>test-gtx_matrix_query</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_matrix_transform_2d.vcxproj">
+      <Project>{B226744B-2734-341F-8600-B0543B2FB6A0}</Project>
+      <Name>test-gtx_matrix_transform_2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_norm.vcxproj">
+      <Project>{92F996EE-8AFC-300A-9E29-37A024B2C99D}</Project>
+      <Name>test-gtx_norm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_normal.vcxproj">
+      <Project>{A53F7A48-A9D1-3A19-B46B-A21E054E733E}</Project>
+      <Name>test-gtx_normal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_normalize_dot.vcxproj">
+      <Project>{31C01252-884D-3F33-A673-C6A0022294AD}</Project>
+      <Name>test-gtx_normalize_dot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_number_precision.vcxproj">
+      <Project>{71D530AC-7ABB-35AE-92D6-EAF49FC2835A}</Project>
+      <Name>test-gtx_number_precision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_optimum_pow.vcxproj">
+      <Project>{4B653F74-4EE5-3FB3-AED9-F81CE9569F4B}</Project>
+      <Name>test-gtx_optimum_pow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_orthonormalize.vcxproj">
+      <Project>{326AEF15-7006-37C6-905F-7CB24E3E65F3}</Project>
+      <Name>test-gtx_orthonormalize</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_perpendicular.vcxproj">
+      <Project>{C8881C53-8801-33B9-A694-DC2ECFA44105}</Project>
+      <Name>test-gtx_perpendicular</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_polar_coordinates.vcxproj">
+      <Project>{8731B1DE-C3F2-3998-B546-6BBD7A3A1D42}</Project>
+      <Name>test-gtx_polar_coordinates</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_projection.vcxproj">
+      <Project>{4D9E681D-C0A6-304A-A39B-143AE91AC696}</Project>
+      <Name>test-gtx_projection</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_quaternion.vcxproj">
+      <Project>{BDA04755-2D40-33B6-860A-5DCB3190527D}</Project>
+      <Name>test-gtx_quaternion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_range.vcxproj">
+      <Project>{4D7F1049-C34D-3E42-89A2-83D157220022}</Project>
+      <Name>test-gtx_range</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_rotate_normalized_axis.vcxproj">
+      <Project>{B839EEE4-AA80-3B55-B50E-81499E37CBB3}</Project>
+      <Name>test-gtx_rotate_normalized_axis</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_rotate_vector.vcxproj">
+      <Project>{C1BA498D-6612-3261-8978-0CC1844614E2}</Project>
+      <Name>test-gtx_rotate_vector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_scalar_multiplication.vcxproj">
+      <Project>{9EFB6811-51A1-3ED7-804A-BF55599A6CB6}</Project>
+      <Name>test-gtx_scalar_multiplication</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_scalar_relational.vcxproj">
+      <Project>{DFAE732D-D31D-3439-AC28-89AA9CE5F150}</Project>
+      <Name>test-gtx_scalar_relational</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_spline.vcxproj">
+      <Project>{C9469238-6E9B-3AEE-B2C3-8C4A3EC6FE6F}</Project>
+      <Name>test-gtx_spline</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_string_cast.vcxproj">
+      <Project>{336CB844-BA95-3603-8D32-44CAE53EA1EA}</Project>
+      <Name>test-gtx_string_cast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_type_aligned.vcxproj">
+      <Project>{D5FDC043-860D-357A-B404-BDAE71D3DF09}</Project>
+      <Name>test-gtx_type_aligned</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_type_trait.vcxproj">
+      <Project>{E1D1E963-0021-310F-959C-CA98630B7045}</Project>
+      <Name>test-gtx_type_trait</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_vector_angle.vcxproj">
+      <Project>{5D4C58F3-31C9-3F00-97A8-6249B70EEDE4}</Project>
+      <Name>test-gtx_vector_angle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_vector_query.vcxproj">
+      <Project>{9C899961-C6DF-36D4-8973-8A4DFC3635C3}</Project>
+      <Name>test-gtx_vector_query</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\gtx\test-gtx_wrap.vcxproj">
+      <Project>{F120DD61-BA85-3664-B453-5E542DBDB70C}</Project>
+      <Name>test-gtx_wrap</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

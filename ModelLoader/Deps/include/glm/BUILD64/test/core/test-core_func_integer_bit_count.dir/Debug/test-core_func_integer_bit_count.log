@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/s4002675/Downloads/glm-0.9.8.5/glm/test/core/CMakeLists.txt
+  core_func_integer_bit_count.cpp
+C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\test\core\core_func_integer_bit_count.cpp(167,9): warning C4244: 'return': conversion from 'unsigned __int64' to 'int', possible loss of data
+  test-core_func_integer_bit_count.vcxproj -> C:\Users\s4002675\Downloads\glm-0.9.8.5\glm\glm\BUILD64\test\core\Debug\test-core_func_integer_bit_count.exe
